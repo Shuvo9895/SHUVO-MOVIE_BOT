@@ -13,16 +13,16 @@ def is_enabled(value, default):
         return default
 
 #main variables
-API_ID = int(environ.get('API_ID', '19863226'))
-API_HASH = environ.get('API_HASH', '8f6bf9eb5bb94dbd2455925eee5b3b84')
-BOT_TOKEN = environ.get('BOT_TOKEN', '6343988375:AAFvZfx1NbTVsoqqb0QUkakACchK-s8HU_M')
+API_ID = int(environ.get('API_ID', '23864777'))
+API_HASH = environ.get('API_HASH', '1ad9abca4b87cee505e4ed3b1a811665')
+BOT_TOKEN = environ.get('BOT_TOKEN', '7741457810:AAFdvmLFQQQrgmNRV73YANPNVuG-ycIOX0o')
 
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7140699364').split()]
-USERNAME = environ.get('USERNAME', "https://telegram.me/biisal")
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002245325869'))
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6509218702').split()]
+USERNAME = environ.get('USERNAME', "https://telegram.me/kog_shuvo")
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002205837203'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+4RB2-U2o9yE4ZmQ9')
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '').split()]
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Jot:Sidhu@cluster0.qwokssw.mongodb.net/")
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '1002491106326').split()]
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://ShuvoMovie:ShuvoMovie@cluster0.w7dsc.mongodb.net/?retryWrites=true&w=majority")
 
 DATABASE_NAME = environ.get('DATABASE_NAME', "TELEGRAM_BOT_INFO")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
