@@ -42,13 +42,13 @@
 # Example Code For Fillling Fields In info.py File
 
 ```py
-API_ID = int(environ.get('API_ID', '12345678'))
-API_HASH = environ.get('API_HASH', 'cgr055a6b7fhghgtddafb8bfdb8a3yty6')
-BOT_TOKEN = environ.get('BOT_TOKEN', 'fvbuuferd:b4256terjhbhnbjfrh')
-ADMINS = list(set(int(x) for x in environ.get('ADMINS', '12345678 89674523').split()))
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001234567890'))
-CHANNELS = list(set(int(x) for x in environ.get('CHANNELS', '-1001234567890 -1001234567890').split()))
-DATABASE_URI = environ.get('DATABASE_URI', 'mongodb+srv://username:password@<cluster>.mongodb.net/<database>?retryWrites=true&w=majority')
+API_ID = int(environ.get('API_ID', '23864777'))
+API_HASH = environ.get('API_HASH', '1ad9abca4b87cee505e4ed3b1a811665')
+BOT_TOKEN = environ.get('BOT_TOKEN', '7741457810:AAFdvmLFQQQrgmNRV73YANPNVuG-ycIOX0o')
+ADMINS = list(set(int(x) for x in environ.get('ADMINS', '6509218702').split()))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002205837203'))
+CHANNELS = list(set(int(x) for x in environ.get('CHANNELS', '-1002491106326').split()))
+DATABASE_URI = environ.get('DATABASE_URI', 'mongodb+srv://ShuvoMovie:ShuvoMovie@cluster0.w7dsc.mongodb.net/?retryWrites=true&w=majority')
 LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1001234567890'))
 DELETE_CHANNELS = list(set(int(x) for x in environ.get('DELETE_CHANNELS', '-1001234567890 -1001234567890').split()))
 URL = environ.get('URL', 'stream-bot-nv.urgent-gena.koyeb')
